@@ -4,12 +4,12 @@
     - dev
 ---
 spring:
-  peofile: dev                #开发环境  
+  profile: dev                #开发环境  
   application:
     name: microservicecloud-config-dev
 ---
 spring:
-  peofile: test                #测试环境  
+  profile: test                #测试环境  
   application:
     name: microservicecloud-config-test
 #请保存为utf-8的格式
